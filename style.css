@@ -1,0 +1,39 @@
+	body {
+		  font-family: Arial, sans-serif;
+		}
+	
+    #mainContainer {
+      margin: 20px;
+    }
+	
+	.article_Container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+	}
+	
+	.article_items {
+		width: 35%;
+		margin: 13px;
+	}
+	
+	img {
+		width: 100%;
+		border-radius: 10%;
+	}
+	
+	h2{
+		font-weight: bold;
+		color: #675d5d;
+		line-height: 1.2;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		width: 77%;
+	}
+	
+	span.updateDate {
+		color: #8d8d8d;
+		font-weight: bold;
+	}
